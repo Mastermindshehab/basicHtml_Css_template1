@@ -1,0 +1,1116 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{font-family: 'Work Sans', sans-serif;font-size: 16px;}
+h1,h2,h3,h4,h5,h6{font-family: 'Oswald', sans-serif; font-weight: 500;}
+*{margin: 0;padding:0;}
+img{max-width:100% ;padding: 0px ;margin: 0px;}
+
+
+
+
+.container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+   
+}
+
+section{padding: 50px 0px;}
+
+section#Idieas {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0px;
+    padding-bottom: 50px;
+}
+/* START TOPBAR SECTION CSS CODING */
+.topbar_main {
+    background: #f5f5f5;
+}
+.phone {
+    width: 210px;
+    float: left;
+    border-left: 1px solid #ddd;
+    padding: 8px 10px;
+}
+
+.phone i {
+    color: #FF6C00;
+}
+
+.email {
+    width: 500px;
+    float: left;
+    border-left: 1px solid #ddd;
+    padding: 8px 10px;
+}
+
+.email i {
+    color: #FF6C00;
+}
+.social{width: 108px;float: right;}
+
+.social a{display: block;float: left;border-right: 1px solid #ddd;color: #2b2b2b;padding: 8px;}
+.social a:first-child{border-left:1px solid #ddd;}
+.social a:hover{color:#FF6C00;}
+.topbar_wrapper{overflow: hidden;}
+ 
+
+/* END TOPBAR SECTION CSS CODING */
+/* START MANUS SECTION CSS CODING */
+.manu {
+    width: 990px;
+    float: left;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+}
+ul.main_manu {
+    list-style: none;
+    float: right;
+    position: relative;
+}
+
+ul.main_manu li {
+    float: left;
+    position: relative;
+}
+
+ul.main_manu li a {
+    text-decoration: none;
+    padding: 26px 15px;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    display: block;
+    color: #3c3939;
+    position: relative;
+}
+ ul.main_manu li a:hover{color: #f77f27;}
+.primary_wrapper {display: table;}
+
+/* END MANU SECTIION CSS CODNG */
+/* START SLIDER SECTION CSS CODING */
+section.home_slider {
+    background: url(img/slide-2.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.slider_content {
+    color: white;
+    width: 600px;
+}
+
+.slider_content p {
+    width: 486px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.slider_content h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+button#slider_button {
+    background: #FF5200;
+    color: white;
+    padding: 13px 29px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 2px;
+    margin-bottom: 63px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+button#slider_button:hover{background: #252525;transition: all 0.5s;border: none;}
+.slider_nav {
+    width: 60px;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.slider_nav span {
+    width: 7px;
+    height: 7px;
+    border: 3px solid #ddd;
+    display: block;
+    border-radius: 100%;
+    float: left;
+    cursor: pointer;
+    margin: 5px;
+}
+.slider_nav span:last-child{
+    background:#ff5200;
+    border: 3px solid #ff5200;
+
+}
+/* END SLIDER SECTION CSS CODING */
+
+/* START SERVICES BLOCKS CSS CODING */
+#service{transition: 1s;}
+
+section.services {
+    background: #F5F6F6;
+    overflow: hidden;
+}
+
+.single_box {
+    width: 240px;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    margin-right: 25px;
+background: #ffff;
+}
+
+.active{background:#fb5200;color:white !important;}
+.active .sbox_link a{color:white !important;}
+.active i  {color:white !important;}
+.active a {color:white !important;}
+.single_box:hover {background: #fb5200;cursor: pointer;color:white  !important; transition:all 0.5s;}
+
+.single_box:hover a{color:white !important;}
+.single_box:hover  i {color: white !important;}
+
+.sbox_icon {
+    font-size: 38px;
+    margin: 25px 0px;
+    color: #ea5a13;
+}
+.sbox_icon i {color:#fb5200 ;}
+
+.sbox_title {
+    text-align: center;
+    line-height: 35px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 26px 0px;
+}
+
+.sbox-content {
+    text-align: center;
+    font-size: 16px;
+    margin: 25px 0px;
+    line-height: 23px;
+}
+.sbox_link  {
+    color: #fb5200 !important;
+    text-decoration: none;
+}
+.sbox_link .fa-arrow-right{color:#fb5200;font-size: 13px;}
+.sbox_link {
+ 
+    margin: 25px 0px;
+}
+.sbox_link a {
+    text-decoration: none;
+    color: #fb5200;
+}
+
+
+/* END SERVICES BLOCKS CSS CODING */
+/* START TEAM WORK OPTION CSS CODING */
+section#our_team {
+    overflow: hidden;
+}
+.ourteam_img {
+    width: 540px;
+    float: left;
+    margin-right: 47px;
+}
+.ourteam_content {
+    width: 542px;
+    float: right;
+}
+.ourteam_title {margin-bottom: 35px;line-height: 27px;margin-top: 12px;}
+
+.ourteam_title p {
+    color: #656565;
+}
+
+.ourteam_title h2 {
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 2.2px;
+}
+.ourteam_des {
+    margin: 20px 0px;
+}
+
+.ourteam_des ul li a {
+    text-decoration: none;
+    color: #222222;
+}
+.ourteam_des ul li a:hover {color:#ff5200;}
+ul.teamwork_left_c {
+    float: left;
+    width: 250px;
+}
+ul.teamwork_left_c li:before {
+        content: "\00BB \0020";
+         }
+         ul.teamwork_left_c li:before {}
+         .ourteam_des ul {
+    list-style: none;
+    line-height: 32px;
+}
+.ourteam_button a {
+    padding: 15px;
+    background: #ff5200;
+    width: 116px;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.ourteam_button a:hover {background-color:#252525; transition: all 0.5s;}
+
+
+section.whychoosUs {
+    background-image: linear-gradient( 360deg, #353030a6, #3c3c3ca6),url(img/why-choose-us1.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.single_icon {
+    width: 255px;
+    color: white;
+    text-align: center;
+    float: left;
+    margin: 0px 15px;
+}
+
+.single_icon h5 {
+    font-size: 21px;
+    padding: 8px 0px;
+}
+.sicon i {
+    font-size: 50px;
+    padding: 16px 0px;
+}
+.single_icon h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: system-ui;
+}
+
+section#blog_post {
+    background: #F5F6F6;
+    overflow: hidden;
+}
+
+.Bpost_title {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.Bpost_title p {
+    width: 555px;
+    margin: auto;
+    font-size: 16px;
+    color: #787C78;
+}
+
+.Bpost_title h2:after {
+    background: #ff5200;
+    position: absolute;
+    bottom: 0;
+    border-bottom: 3px solid #ff5200;
+    width: 87px;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Bpost_title h2 {
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    padding: 8px 0px;
+    margin-bottom: 17px;
+}
+
+.Bpost_desc {
+    width: 258px;
+    float: left;
+    margin-right: 27px;
+}
+
+.Bpost_img {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.Bpost_content h3 {
+    font-size: 20px;
+    padding: 7px 0px;
+}
+
+.Bpost_content p {
+    color: #656565;
+    font-size: 16px;
+}
+/* END TEAM WORK OPTION CSS CODING */
+
+/* START PRICE PLAN CSS CODING */
+.pricePlan_title {
+    text-align: center;
+    padding: 29px 0px;
+}
+
+.pricePlan_title h2:after {
+    position: absolute;
+    bottom: 0;
+    border-bottom: 3px solid #ff5200;
+    content: "";
+    width: 56px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pricePlan_title h2 {
+    font-size: 40px;
+    position: relative;
+    padding: 8px 0px;
+}
+.pricePlan_title p {
+    width: 555px;
+    margin: auto;
+    padding: 20px 0px;
+    color: #615959;
+    font-size: 16px;
+}
+
+.pricePlan_desc {
+    width: 349px;
+    border: 1px solid #ddd;
+    float: left;
+    margin: 14px;
+    background: #FFFFFF;
+}
+.P_title {
+    padding: 16px;
+    font-size: 26px;
+    padding-bottom: 0px;
+}
+.p_logo {font-size: 46px;padding: 17px;padding-top: 4px;font-weight: 600;}
+
+.p_logo span {
+    font-size: 18px;
+    line-height: 1px;
+    font-weight: 800;
+}
+ul.p_list {
+    list-style: none;
+    padding: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+ul.p_list li a i {
+    color: #FF5F18;
+    padding: 6px;
+    margin: 2px;
+}
+
+ul.p_list li {
+    line-height: 41px;
+}
+
+ul.p_list li a {
+    text-decoration: none;
+    color: #62667C;
+}
+.pricePlanDesc_wrapper {
+    background: #FBFBFB;
+    overflow: hidden;
+}
+.pricePlan_button a {
+    padding: 16px;
+    background: #ff5200;
+    width: 122px;
+    margin: 30px;
+    border-radius: 2px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+}
+.pricePlan_button a:hover {background:#252525; transition: all 0.4s;}
+
+
+.Idieas_wrapper {
+    overflow: hidden;
+    padding: 0;
+}
+
+.Ida_right {
+    width: 46%;
+    float: right;
+    background: #222222;
+    color: white;
+    padding: 36px 30px;
+    overflow: hidden;
+}
+
+.IDia_title {
+    padding: 32px;
+}
+
+.IDia_title h2 {
+    font-size: 32px;
+    padding: 14px 0px;
+}
+
+.IDia_title p {
+    padding: 10px 0px;
+    font-size: 15px;
+}
+.Ida_desc_left {
+    width: 50%;
+    float: left;
+    margin: 24px 0px;
+}
+
+.I_logo {
+    width: 80px;
+    float: left;
+    padding: 13px;
+    font-size: 27px;
+    color: #ff5200;
+    margin-top: 2px;
+}
+
+.I_titleDesc {
+    width: 308px;
+}
+
+.I_titleDesc h4 {
+    padding: 4px 0px;
+    font-size: 20px;
+}
+.Idleft_img {
+    background: url(img/s02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 50%;
+    left:0;
+    background-position: center right;
+    top:0;
+    float:left;
+    height: 507px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+/* END PRICE PLAN CSS CODING */
+
+/* START OUR TEAM CSS CODING SECTION */
+.Section_titls {
+    text-align: center;
+}
+
+.Section_titls h2 {
+    font-size: 40px;
+    padding-bottom: 9px;
+    text-transform: uppercase;
+}
+
+.Section_titls h2:after {
+    width: 56px;
+    position: absolute;
+    color: #ff5200;
+    content: "";
+    border: 2px solid;
+    left: 50%;
+    transform: translateX(-41px);
+    display: block;
+    margin: 4px 0px;
+    background: #ff5200;
+}
+
+.Section_titls p {
+    width: 555px;
+    text-align: center;
+    margin: auto;
+    padding: 17px 0px;
+    color: #656565;
+}
+
+
+.OurTeam_content {
+    width: 262px;
+    float: left;
+    margin-right: 27px;
+    margin-top: 38px;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.OurTeam_content:last-child {
+    margin-right: 0px;
+}
+section#OurTeam {
+    overflow: hidden;
+}
+
+.OurTeam_img {
+    width: 100%;
+    position: relative;
+   
+}
+.OurTeam_titleDesc {
+    text-align: center;
+    padding: 25px;
+}
+
+.OurTeam_titleDesc h4 {
+    font-size: 20px;
+    padding: 4px 0px;
+}
+
+.OurTeam_titleDesc p {
+    color: #656565;
+    font-size: 14px;
+    padding: 4px 0px;
+}
+
+.OurTeam_socailIcons {
+ 
+position: absolute;
+ 
+bottom: 60px;
+ 
+left: 50%;
+ 
+transform: translateX(-50%);
+ 
+text-align: center;
+}
+
+
+
+.OurTeam_socailIcons a {
+    width: 20px;
+    height: 20px;
+    background: #ff5200;
+    border-radius: 100%;
+    display: grid;
+    overflow: hidden;
+    text-decoration: none;
+    place-items: center;
+    padding: 4px;
+    color: white;
+    float: left;
+    left: 50%;
+    margin-right: 4px;
+    
+}
+
+.OurTeam_socailIcons a i {
+    
+}
+.OurTeam_socailIcons a:first-child {background:#3b5998;transition: .80s;opacity: 0;}
+.OurTeam_socailIcons a:nth-child(2) {background:#00acee;
+transition: .70s;opacity: 0;
+}
+.OurTeam_socailIcons a:nth-child(3) {background:#db4a39;transition:.50s;opacity:0;}
+.OurTeam_socailIcons a:last-child{background:#0077b5;transition:.40s;opacity:0;}
+
+
+.OurTeam_content:hover .OurTeam_socailIcons a:first-child{
+transform: translateY(15px);
+opacity: 1;
+
+
+}
+.OurTeam_content:hover .OurTeam_socailIcons a:nth-child(2){
+transform: translateY(15px);
+opacity: 1;
+
+
+}
+.OurTeam_content:hover .OurTeam_socailIcons a:nth-child(3){
+transform: translateY(15px);
+opacity: 1;
+
+
+}
+.OurTeam_content:hover .OurTeam_socailIcons a:last-child{
+transform: translateY(15px);
+opacity: 1;
+
+
+}
+
+.OurTeam_Btn {
+    padding-top: 53px;
+    overflow: hidden;
+    text-align: center;
+    width: 56%;
+    margin: auto;
+}
+
+.OurTeam_Btn button {
+    padding: 18px 40px;
+    display: block;
+    margin: auto;
+    color: white;
+    background: #222222;
+    border: none;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.OurTeam_Btn button:hover {background:#ff5200;}
+
+
+
+/* END OUR TEAM CSS CODING SECTION */
+/* START OUR BEST PROJECT OPTION CSS CODING */
+section#BestProject {
+    background: #F5F6F6;
+}
+.BestProject_content {
+    width: 352px;
+    float: left;
+    margin-right: 27px;
+    position: relative;
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+.BestProject_wrapper {
+    overflow: hidden;
+    column-count: 3;
+}
+.BestProject_title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 36px 30px;
+    background: linear-gradient(to top, black, transparent 167px);
+    color: white;
+    overflow: hidden;
+}
+
+.BestProject_title i {
+    font-size: 10px;
+}
+
+.BestProject_title a {
+    color: white;
+    font-size: 13px;
+}
+
+a#BestProject_Btn {
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    font-weight: 500;
+    transform: translateX(-131px);
+    transition: 0.3s;
+    transition-delay: 0.4s;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.15, 1.18);
+}
+.BestProject_content:hover .BestProject_title {
+    padding: 60px 30px !important;
+}
+.BestProject_desc {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.BestProject_content:hover a#BestProject_Btn{
+    transform: translateX(10px)
+}
+/* END OUR BEST PROJECT OPTION CSS CODING */
+/* START LATEST NEWS CSS CODING */
+
+.Single_News {
+    width: 350px;
+    float: left;
+    margin-right: 25px;
+    overflow: hidden;
+}
+.Single_News:hover img {transform: scale(1.2)}
+.Single_News:last-child {
+    margin-right: 0px;
+}
+
+.News_imgs img {
+    width: 100%;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.LatestNews_meta {
+    padding: 30px;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.LatestNews_catagory {
+    margin: 12px 2px;
+    padding: 10px 5px;
+    margin-bottom: 22px;
+    position: relative;
+    overflow: hidden;
+}
+
+.LatestNews_catagory a:after {
+    position: absolute;
+    display: block;
+    width: 12px;
+    border: 1px solid #ff5200;
+    content: "";
+    overflow: hidden;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-33px);
+}
+
+
+
+.LatestNews_catagory a {
+    float: left;
+    width: 50%;
+    text-decoration: none;
+    color: #8D827B;
+    font-size: 15px;
+    overflow: hidden;
+}
+section.LatestNews {
+    overflow: hidden;
+}
+
+.LatestNews_title h3 {
+    margin: 15px 0px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000000bf;
+}
+
+p {}
+
+.LatestNews_title p {
+    margin: 18px 0px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #716d67;
+}
+
+.LatestNews_title a {
+    text-decoration: none;
+    color: #ff5200;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+a {}
+
+.LatestNews_title a i {
+    font-size: 12px;
+}
+
+.News_imgs {
+    line-height: 0px;
+}
+
+/* END LATEST NEWS CSS CODING */
+
+/* START FOOTER SECTION CSS CODING */
+footer#footer {
+    overflow: hidden;
+    padding-top: 150px;
+    background: #1A1A1A;
+}
+.copyright_container {
+    overflow: hidden;
+    color: #9999;
+    border-top: 1px solid #333;
+}
+
+.copyrightText {
+    width: 540px;
+    float: left;
+}
+
+.copyright_manu {
+    width: 570px;
+    float: right;
+}
+
+.copyright_manu ul {
+    list-style: none;
+    float: right;
+}
+
+.copyright_manu ul li {
+    
+    float: left;
+}
+.copyright_manu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 25px 15px;
+    color: #999;
+}
+.copyrightText {
+    overflow: hidden;
+    padding: 25px 15px;
+}
+.fBox_wrapper {
+    overflow: hidden;
+    margin-bottom: 85px;
+}
+
+.Fbox {
+    width: 250px;
+    float: left;
+    overflow: hidden;
+    margin-right: 30px;
+    color: #999;
+}
+
+.Fbox p {
+    margin-bottom: 18px;
+    line-height: 21px;
+}
+
+.Fbox h2 {color: white;margin-bottom: 18px;}
+
+.Fbox:last-child {
+    margin-right: 0px;
+}
+span#contacts {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+span#contacts i {
+    color: #ff5200;
+}
+ul.ufLinks {
+    list-style: none;
+    overflow: hidden;
+}
+
+ul.ufLinks li a i {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+ul.ufLinks li {
+    line-height: 25px;
+    overflow: hidden;
+}
+
+ul.ufLinks li a {
+    text-decoration: none;
+    display: block;
+    padding: 7px 0px;
+    color: #999;
+    border-bottom: 1px dashed #353535;
+    transition: .3s;
+}
+ul.ufLinks li a:hover {color:#ff5200;}
+
+.Rpost_meta {
+    width: 41px;
+    background: #313131;
+    text-align: center;
+    padding: 8px;
+    border-radius: 6px;
+    float: left;
+}
+
+.Rpost_meta span:first-child {
+    color: white;
+    font-weight: 900;
+    font-size: 19px;
+}
+
+.Rpost_meta span:nth-child(2) {
+    color: white;
+    font-size: 10px;
+}
+
+.Rpost_title {float: right;width: 166px;}
+
+.Rpost_title h3 {
+
+    color: #ababab;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+.Rpost_title h3:hover {color:#ff5200;}
+
+.Rpost_title a {
+    font-size: 12px;
+    color: #999;
+}
+
+.Rpost_title i {
+    margin-right: 7px;
+}
+
+.Rpost {
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.FIcons a {
+    padding: 6px;
+    color: #ababab;
+    transition: .3s;
+}
+.FIcons a:hover {color:#ff5200;}
+/* END FOOTER SECTION CSS CODING */
+
+/* START SUBSCRIBE OPTON CSS CODING */
+.Subscribe_wrapper {
+    overflow: hidden;
+    background: #FF5200;
+    border-radius: 3px;
+}
+
+.subscribe_singleBox {
+    width: 300px;
+    float: left;
+    margin-right: 25px;
+    padding: 30px;
+}
+
+.subscribe_singleBox p {
+    color: white;
+}
+
+.subscribe_singleBox h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.subscribe_singleBox:last-child {
+    margin-right: 0px;
+}
+section#subscribesection {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -124px;
+}
+.SubscribeInput {
+    position: relative;
+}
+
+.SubscribeInput input:first-child {
+    padding: 14px;
+    width: 75%;
+    border: none;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    outline: none;
+cursor: pointer
+}
+
+
+
+input#subsubmit {
+    padding: 13px;
+    font-weight: 900;
+    width: 104px;
+    background: black;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    border: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    transform: translateX(210px);
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+}
+.SubFlow_icon a {
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 100%;
+    overflow: hidden;
+    float: left;
+    margin-right: 12px;
+    text-align: center;
+    color: wheat;
+    transition: .3s;
+}
+.SubFlow_icon a:hover {color:black;background: white;}
+/* END SUBSCRIBE OPTION CSS CODING */
+
+/* START SUB MANU CSS CODING */
+
+ul.sub_manu {
+    list-style: none;
+    width: 270px;
+    position: absolute;
+    background: white;
+    border-top: 1px solid #ddd;
+    top: 70px;
+  
+    transform-origin: top;
+    transform: scale(0);
+    visibility: hidden; 
+}
+
+ul.sub_manu li a:before {
+    width:0px;
+    height: 2px;
+    content: "";
+    background: #ff0c0c;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    transition: 0.6s;
+}
+
+ul.sub_manu li {
+    float: none;
+    padding: 7px 22px;
+}
+
+ul.sub_manu li a {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+ul.sub_manu li:hover a:before  {  width: 15px;}
+ul.main_manu li:hover ul.sub_manu{transform: scaleY(1);visibility: visible; transition:0.3s;}
+
+/* END SUB MANU CSS CODING */
